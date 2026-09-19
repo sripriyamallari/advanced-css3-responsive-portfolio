@@ -1,0 +1,94 @@
+/* ================================
+   ADVANCED CSS3 RESPONSIVE PORTFOLIO
+   ================================ */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background: #f5f7fb;
+    color: #222;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+    background: #111827;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    color: #60a5fa;
+}
+
+/* Main sections */
+section {
+    padding: 70px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Hero section */
+.hero {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #dbeafe, #f5f3ff);
+    border-radius: 15px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+    color: #111827;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #4b5563;
+    margin-bottom: 25px;
+}
+
+/* Buttons */
+button,
+.btn,
+a.button {
+    display: inline-block;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    cursor
